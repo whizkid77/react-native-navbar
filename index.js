@@ -73,6 +73,7 @@ class NavigationBar extends Component {
 
     return (
       <Text
+        numberOfLines={data.numberOfLines || 100}
         style={[styles.navBarTitleText, colorStyle, ]}>
         {data.title}
       </Text>
